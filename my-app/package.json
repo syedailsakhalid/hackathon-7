@@ -1,0 +1,44 @@
+{
+  "name": "template8",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate": "node scripts/migrate.mjs",
+    "cleanup": "node scripts/cleanup.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.69.0",
+    "class-variance-authority": "^0.7.1",
+    "dotenv": "^16.4.7",
+    "lucide-react": "^0.474.0",
+    "next": "^15.1.4",
+    "next-sanity": "^9.8.35",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sanity": "^3.69.0",
+    "shadcn-ui": "^0.9.4",
+    "styled-components": "^6.1.14",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20.17.17",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.4",
+    "parcel": "^2.13.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.7.3"
+  }
+}
